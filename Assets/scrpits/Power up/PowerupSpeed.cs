@@ -11,17 +11,15 @@ public class Powerup : MonoBehaviour
     public float increase = 5f;
     public Move2D playermove2d;
 
-        
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-            if (playermove2d)
-            {
-                playermove2d.speed += increase;
-                Destroy(gameObject);
-            }
 
+        if (playermove2d)
+        {
+            playermove2d.speed += increase;
+            Destroy(gameObject);
         }
+
     }
-
-
+}
