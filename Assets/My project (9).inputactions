@@ -263,9 +263,9 @@
                     "name": "",
                     "id": "a3ba43f9-0686-4a7a-ba81-a30ccc6f9864",
                     "path": "<Keyboard>/shift",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Shield",
                     "isComposite": false,
                     "isPartOfComposite": false
