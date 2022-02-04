@@ -8,15 +8,7 @@ public class shield : MonoBehaviour
 {
     public GameObject shields;
 
-   
-
-    private bool activateShield;
-    // Start is called before the first frame update
-    void Start()
-    {
-        activateShield = false;
-        shields.SetActive(false);
-    }
+    public bool ActiveShield { get; private set; }
 
     private static void SetActive(bool v)
     {
@@ -41,17 +33,7 @@ public class shield : MonoBehaviour
        
     }
 
-    public bool ActiveShield
-    {
-        get
-        {
-            return ActiveShield;
-        }
-        set
-        {
-            activateShield = value;
-        }
-    }
+   
 }
 
 
