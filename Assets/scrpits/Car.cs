@@ -1,7 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using UnityStandardAssets.Characters.FirstPerson;
-using UnityStandardAssets.Vehicles.Car;
 
 public class CarEnter : MonoBehaviour
 {
@@ -37,10 +34,6 @@ public class CarEnter : MonoBehaviour
 
             carCamera.SetActive(true);
 
-            car.GetComponent<CarController>().enabled = true;
-            car.GetComponent<CarUserControl>().enabled = true;
-            car.GetComponent<CarAudio>().enabled = true;
-
             timeLeft = 1f;
 
         }
@@ -53,10 +46,7 @@ public class CarEnter : MonoBehaviour
 
             carCamera.SetActive(false);
 
-            car.GetComponent<CarController>().enabled = false;
-            car.GetComponent<CarUserControl>().enabled = false;
-            car.GetComponent<CarAudio>().enabled = false;
-
+          
             isInside = false;
             canLeave = false;
 

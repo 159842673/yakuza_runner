@@ -13,7 +13,7 @@ public class Shooter2D : MonoBehaviour
         bulletMove.direction = direction;
         bulletMove.speed = bulletSpeed;
     }
-   public override void Shoot()
+   public void shoot()
     {
         Debug.Log("Pistolet");
     }

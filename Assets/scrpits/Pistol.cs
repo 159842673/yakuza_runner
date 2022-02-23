@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pistol : Shooter2D
 {
 
-    public override void Shoot()
+    public  void shoot()
     {
         Debug.Log("Pistolet");
     }
@@ -13,7 +13,7 @@ public class Pistol : Shooter2D
 
     public class Gatling : Shooter2D
     {
-        public override void Shoot()
+        public void shoot()
         {
             Debug.Log("Gatling");
         }
