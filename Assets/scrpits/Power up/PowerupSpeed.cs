@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 
 
-public class Powerup : MonoBehaviour
+public class PowerupSpeed : MonoBehaviour
 {
     public float increase = 5f;
     public Move2D playermove2d;

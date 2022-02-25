@@ -9,7 +9,7 @@ public class CarEnter : MonoBehaviour
 
     private bool canEnter;
     private bool isInside;
-   
+
 
     private float timeLeft;
     private bool canLeave = false;
@@ -46,17 +46,17 @@ public class CarEnter : MonoBehaviour
 
             carCamera.SetActive(false);
 
-          
+
             isInside = false;
             canLeave = false;
 
             timeLeft = 1f;
 
-           
+
         }
 
-        // DÃ©lais d'attente entre l'entrÃ©e et la sortie de la voiture
-        // (Permet aussi d'utiliser la mÃªme touche pour entrer et sortir)
+        // Délais d'attente entre l'entrée et la sortie de la voiture
+        // (Permet aussi d'utiliser la même touche pour entrer et sortir)
         if (timeLeft > 0 && isInside)
         {
             timeLeft -= Time.deltaTime;
@@ -68,7 +68,7 @@ public class CarEnter : MonoBehaviour
         }
     }
 
-    // Detection du joueur dans le cube d'entrÃ©e
+    // Detection du joueur dans le cube d'entrée
     void OnTriggerEnter(Collider other)
     {
 

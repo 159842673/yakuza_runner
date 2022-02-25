@@ -19,3 +19,5 @@ public class Player2 : MonoBehaviour
     {
         move.direction = value.Get<Vector2>();
     }
+
+}
