@@ -11,18 +11,7 @@ public class Pistol : Shooter2D
     }
 
 
-    public class Gatling : Shooter2D
-    {
-        public void shoot()
-        {
-            Debug.Log("Gatling");
-        }
-
-
-
-
-
-    }
+ 
 
 
 }

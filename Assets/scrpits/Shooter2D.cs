@@ -17,4 +17,15 @@ public class Shooter2D : MonoBehaviour
     {
         Debug.Log("Pistolet");
     }
+
+    public void shooter()
+    {
+        Debug.Log("Gatling");
+    }
+
+    public void shot()
+    {
+        Debug.Log("Pompe");
+    }
 }
+
