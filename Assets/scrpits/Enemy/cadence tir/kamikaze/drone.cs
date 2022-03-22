@@ -10,7 +10,7 @@ public class drone : MonoBehaviour
         if (col.gameObject.layer == LayerMask.NameToLayer("player"))
         {
             Die();
-            pa.drone();
+            pa.drone(); 
         }
     }
 

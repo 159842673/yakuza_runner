@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class spawn : MonoBehaviour
 {
@@ -7,10 +9,13 @@ public class spawn : MonoBehaviour
     public float MaxvalueY;
     public float ennemydestroytime = 11f;
     public float spawnx;
+    private void Awake()
+    {
+     
+    }
     void Start()
     {
         InvokeRepeating("instantiatenemy", 4f, 10f);
-
     }
     void instantiatenemy()
     {
@@ -18,4 +23,12 @@ public class spawn : MonoBehaviour
         GameObject respawn = Instantiate(ennemyprefab, enemypos, Quaternion.identity);
         Destroy(respawn, ennemydestroytime);
     }
+    IEnumerator RNBSPAWN()
+    {
+        while (true)
+        {
+        }
+    }
 }
+
+
