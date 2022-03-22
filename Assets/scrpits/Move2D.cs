@@ -13,7 +13,6 @@ public class Move2D : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
     }
-
     private void FixedUpdate()
     {
         Move();
