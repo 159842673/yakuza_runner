@@ -13,4 +13,19 @@ public class Shooter2D : MonoBehaviour
         bulletMove.direction = direction;
         bulletMove.speed = bulletSpeed;
     }
+   public void shoot()
+    {
+        Debug.Log("Pistolet");
+    }
+
+    public void shooter()
+    {
+        Debug.Log("Gatling");
+    }
+
+    public void shot()
+    {
+        Debug.Log("Pompe");
+    }
 }
+
