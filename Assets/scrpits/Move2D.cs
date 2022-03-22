@@ -23,5 +23,11 @@ public class Move2D : MonoBehaviour
     {
         rb2D.velocity = direction.normalized * speed;
     }
+
+    public void OnMove(InputValue value)
+    {
+        Debug.Log("Coucou");
+        direction = value.Get<Vector2>();
+    }
 }
 
