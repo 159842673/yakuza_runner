@@ -18,12 +18,12 @@ public class Shooter2D : MonoBehaviour
         Debug.Log("Pistolet");
     }
 
-    public void shooter()
+    public void shooote()
     {
         Debug.Log("Gatling");
     }
 
-    public void shot()
+    public void shooot()
     {
         Debug.Log("Pompe");
     }
