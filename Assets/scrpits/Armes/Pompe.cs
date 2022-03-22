@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pistol : Shooter2D
+public class Pompe : Shooter2D
 {
 
-    public  void shoot()
+    public void Shooot()
     {
-        Debug.Log("Pistolet");
+        Debug.Log("Pompe");
     }
 
 
- 
+
 
 
 }
-
