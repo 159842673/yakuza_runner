@@ -127,4 +127,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSolo: {fileID: 2902452345803941464, guid: 3eeba04e651274e42991c6c731fd3154, type: 3}
-  player1: {fileID: 7647547343029728083, guid: 75f2d20cb6a93fb42868cd4c84e5dac6, type: 3}
+  player1: {fileID: 8982086275813840420, guid: f1f34f0122bf8c346a75ac3e4086eb20, type: 3}
