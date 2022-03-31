@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb8cc19d3ab1be49bb9358bec679575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 8
 --- !u!114 &114077572125490925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,8 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 622bec5839061aa4395da5bb432c9558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  startingHealth: 20
+  maxHealth: 5
+  startingHealth: 5
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
