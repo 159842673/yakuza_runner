@@ -233,6 +233,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ad9d9ec1-998d-4b4b-8852-9acc7f074ddc",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a3ba43f9-0686-4a7a-ba81-a30ccc6f9864",
                     "path": "<Keyboard>/shift",
                     "interactions": "Hold",
@@ -807,9 +818,9 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Shoot",
+                    "name": "Fire",
                     "type": "Button",
-                    "id": "5b62038a-e6cf-4f0b-9edc-767843c7109e",
+                    "id": "904a1b39-2eb1-424a-a2ce-15f971f856fb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -873,12 +884,67 @@
                 },
                 {
                     "name": "",
-                    "id": "7de4de4b-6778-4096-b3fd-3fd1a7544c92",
+                    "id": "d0c2e3dd-84a7-4455-9f18-4d1834fc39e9",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6007e917-4865-443d-94f7-d7779c2325e1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e90e209e-79f6-4630-93d1-841ad72c2197",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Touch",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b02a261e-c203-467a-a45e-cbfe947513ac",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joystick",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "173685b4-daad-4e6e-b90c-ff858b51f30a",
+                    "path": "<XRController>/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XR",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ccf9812-43f0-4780-a408-6a2d34477611",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Shoot",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

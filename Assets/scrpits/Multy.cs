@@ -14,7 +14,7 @@ public class Multiplayer : MonoBehaviour
         }
         else
         {
-            var solo = FindObjectOfType<Player>().transform;
+            var solo = FindObjectOfType<Move2D>().transform;
             var soloPosition = solo.position;
             var soloParent = solo.parent;
             Destroy(solo.gameObject);

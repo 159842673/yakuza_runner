@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class HealPickup : MonoBehaviour
 {
+    private PV pv;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public int healthToGive;
+
+    private void Start()
     {
-        if (collision.gameObject.TryGetComponent<PV>(out var playerLife))
+        pv = FindObjectOfType<PV>();
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("target"))
         {
-            playerLife.currentHealth += 10;
-            playerLife.TakeDamage();
-            Destroy(gameObject);
+            pv.currentHealth += healthToGive;
+            Destroy(this.gameObject);
         }
     }
 }
