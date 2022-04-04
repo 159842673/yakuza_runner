@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 8563716337005834166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -44,14 +44,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RNGSPAWN:
-  - {fileID: 6205348840795134308, guid: a51f829375de4a5478eff99b16e2809b, type: 3}
   - {fileID: 5712742432950853984, guid: acfb9900df54ba140a28a72d3f5a531d, type: 3}
+  - {fileID: 1882787665456292231, guid: 75150808b0be3d14e9a80be293918e33, type: 3}
   - {fileID: 6205348840795134308, guid: a51f829375de4a5478eff99b16e2809b, type: 3}
   - {fileID: 1882787665456292231, guid: 75150808b0be3d14e9a80be293918e33, type: 3}
+  - {fileID: 6205348840795134308, guid: a51f829375de4a5478eff99b16e2809b, type: 3}
   - {fileID: 5712742432950853984, guid: acfb9900df54ba140a28a72d3f5a531d, type: 3}
   - {fileID: 463815936286232941, guid: d8687fbdbe8296441bf50e1ed63692d8, type: 3}
-  - {fileID: 1882787665456292231, guid: 75150808b0be3d14e9a80be293918e33, type: 3}
-  Secondspawn: 5
+  Secondspawn: 10
   MinTras: -1
   Maxtras: 3
   spawnx: 10

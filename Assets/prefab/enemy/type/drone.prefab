@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 114077572125490925}
   - component: {fileID: 114077572125490926}
   - component: {fileID: 6164329007726921794}
-  - component: {fileID: 3269230581906179883}
   m_Layer: 8
   m_Name: drone
   m_TagString: drone
@@ -75,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3625043607559282579, guid: 045b15ec09bba42448d89db77fa6f20a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb8cc19d3ab1be49bb9358bec679575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 8
 --- !u!114 &114077572125490925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,8 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 622bec5839061aa4395da5bb432c9558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  startingHealth: 20
+  maxHealth: 5
+  startingHealth: 5
   damageTaken:
     m_PersistentCalls:
       m_Calls: []
@@ -159,15 +158,3 @@ MonoBehaviour:
   amplitude: 1
   frequency: 2
   inverted: 0
---- !u!114 &3269230581906179883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114077572125490913}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e1a4e8b4e2d34c4a9cdb4e61342449d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
