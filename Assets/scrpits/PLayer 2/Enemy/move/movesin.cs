@@ -14,7 +14,7 @@ public class movesin : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 pos = transform.position;
-        float sin = Mathf.Sin(pos.x) * amplitude;
+        float sin = Mathf.Sin(pos.x*frequency) * amplitude;
         if (inverted)
         {
             sin *= 1;
