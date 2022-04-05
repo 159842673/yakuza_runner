@@ -9,6 +9,7 @@ TagManager:
   - drone
   - lambda
   - target
+  - degat
   layers:
   - Default
   - TransparentFX

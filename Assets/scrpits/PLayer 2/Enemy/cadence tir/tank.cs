@@ -6,7 +6,7 @@ public class tank: MonoBehaviour
     private void Start()
     {
         shooter = GetComponent<Shooter2D>();
-        InvokeRepeating(nameof(Shoot), 0, 1f);
+        InvokeRepeating(nameof(Shoot), 0, 2f);
     }
 
     private void Shoot()
