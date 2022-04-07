@@ -9,6 +9,7 @@ TagManager:
   - drone
   - lambda
   - target
+  - 'chien '
   layers:
   - Default
   - TransparentFX

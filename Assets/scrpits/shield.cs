@@ -15,21 +15,20 @@ public class shield : MonoBehaviour
         throw new NotImplementedException();
     }
 
-    // Update is called once per frame
-    public void OnShield(InputAction.CallbackContext ctx)
+    public IEnumerator Shield()
     {
+        shields.SetActive(true);
+        yield return new WaitForSeconds(10);
+        shields.SetActive(false);
+
+    }
+    public void OnShield(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            StartCoroutine(Shield());
+        }
        
-       
-            if (ctx.performed)
-            {
-                shields.SetActive(true);
-                ActiveShield = true;
-            }
-            if(ctx.canceled)
-            {
-                shields.SetActive(false);
-                ActiveShield = true;
-            }
        
     }
 
