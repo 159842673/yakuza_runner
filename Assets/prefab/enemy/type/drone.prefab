@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6164329007726921794}
   m_Layer: 8
   m_Name: drone
-  m_TagString: drone
+  m_TagString: damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
