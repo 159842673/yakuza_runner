@@ -1498,6 +1498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spawn no miniboss
       objectReference: {fileID: 0}
+    - target: {fileID: 8563716337005834166, guid: 45a76303d60e0164b85086345e3b2326, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8563716337005834167, guid: 45a76303d60e0164b85086345e3b2326, type: 3}
       propertyPath: spawnx
       value: 5
@@ -1866,7 +1870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.246225, y: -1.1772156, z: -10}
+  m_LocalPosition: {x: -6.92, y: 0.45, z: -10}
   m_LocalScale: {x: 0.225, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6515,9 +6519,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[0].NbrEnemies
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[0].Startspawn
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[1].NbrEnemies
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[1].Startspawn
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[0].typeofenemies.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208474, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: waves.Array.data[0].typeofenemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 5712742432950853984, guid: acfb9900df54ba140a28a72d3f5a531d, type: 3}
     - target: {fileID: 248881741592208475, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
       propertyPath: m_Name
       value: Wave
+      objectReference: {fileID: 0}
+    - target: {fileID: 248881741592208475, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 248881741592208475, guid: c8c89c9bb8c64554d8b98dd7b18762f4, type: 3}
       propertyPath: m_TagString
