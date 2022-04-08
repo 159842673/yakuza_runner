@@ -11,4 +11,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/yakuzarunner.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Enemy_test_Map/lambda.unity
+    guid: 2bd0da64f2ae3064bacfa27525c97335
+  - enabled: 1
+    path: Assets/Scenes/Enemy_test_Map/Drone_group.unity
+    guid: 82d05e6b3f7f3ee4a84dd28e6e47d1be
+  - enabled: 1
+    path: Assets/Scenes/Enemy_test_Map/Mini_Boss.unity
+    guid: 13bbb4935d672344aaf54363577a9cb1
+  - enabled: 1
+    path: Assets/Scenes/Enemy_test_Map/lambda_sinus.unity
+    guid: 8be0f147268f1ec438edd079afbe2111
+  - enabled: 1
+    path: Assets/Scenes/Enemy_test_Map/kamikaze.unity
+    guid: 8614092fa75427c438a0758db6094695
+  - enabled: 1
+    path: Assets/Scenes/Mobs.unity
+    guid: ef43a11cb9ada6f4d9b2f3bc60751c27
   m_configObjects: {}

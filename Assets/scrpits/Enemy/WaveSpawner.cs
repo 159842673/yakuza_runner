@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Wave
 {
-    public int noOfEnemies;
+    public int NbrEnemies;
     public GameObject[] typeofenemies;
-    public float spawnInterval;
+    public float Startspawn;
 }
 
 public class WaveSpawner : MonoBehaviour
@@ -41,9 +41,9 @@ public class WaveSpawner : MonoBehaviour
             GameObject randomEnemy = currentWave.typeofenemies[Random.Range(0, currentWave.typeofenemies.Length)];
             Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
             Instantiate(randomEnemy, randomPoint.position, Quaternion.identity);
-            currentWave.noOfEnemies--;
-            NextSpawnTime = Time.time + currentWave.spawnInterval;
-            if (currentWave.noOfEnemies == 0)
+            currentWave.NbrEnemies--;
+            NextSpawnTime = Time.time + currentWave.Startspawn;
+            if (currentWave.NbrEnemies == 0)
             {
                 canSpawn = false;
             }
