@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Wave
 {
-    public string waveName;
     public int noOfEnemies;
     public GameObject[] typeofenemies;
     public float spawnInterval;
