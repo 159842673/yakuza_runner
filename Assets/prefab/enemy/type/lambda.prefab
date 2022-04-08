@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 389337347818948032}
   m_Layer: 8
   m_Name: lambda
-  m_TagString: lambda
+  m_TagString: damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
