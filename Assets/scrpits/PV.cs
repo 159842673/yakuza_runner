@@ -37,12 +37,11 @@ public class PV : MonoBehaviour
     }
     public void OnCollisionEnter2D()
     {
-            drone();
-       
-            TakeDamage();
-
-            Lambda();
+        Lambda();
+        TakeDamage();
+        drone();
     }
+
 
     public void ModifyHealth(int modifier)
     {
