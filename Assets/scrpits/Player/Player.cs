@@ -26,7 +26,6 @@ public class Player : MonoBehaviour
     void deactivateshield()
     {
         shield.SetActive(false);
-
     }
     private void OnMove(InputValue value)
     {
@@ -54,7 +53,6 @@ public class Player : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
-
         }
     }
 

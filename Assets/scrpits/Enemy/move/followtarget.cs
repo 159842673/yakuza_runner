@@ -5,7 +5,7 @@ using UnityEngine;
 public class followtarget : MonoBehaviour
 {
     [SerializeField] private GameObject Target;
-    [SerializeField] float speed ;
+    [SerializeField] float Speed ;
 
     // Update is called once per frame
     void Start()
@@ -15,7 +15,7 @@ public class followtarget : MonoBehaviour
     void Update()
     {
         Target = GameObject.FindGameObjectWithTag("target");
-        transform.position = Vector2.MoveTowards(transform.position, Target.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, Target.transform.position, Speed * Time.deltaTime);
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
