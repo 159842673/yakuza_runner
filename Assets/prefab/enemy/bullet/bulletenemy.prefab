@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6476818833520779738}
   - component: {fileID: 8476300953914069105}
   - component: {fileID: 3220335365755721614}
-  - component: {fileID: 8372794114287439765}
+  - component: {fileID: 2261724403389938065}
   m_Layer: 10
   m_Name: bulletenemy
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3209645289574790021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.1412, y: 1.72004, z: 0}
-  m_LocalScale: {x: 0.24336833, y: 0.24436149, z: 1.4967}
+  m_LocalPosition: {x: -5.47, y: 1.55, z: 0}
+  m_LocalScale: {x: 0.14368466, y: 0.14427102, z: 0.8836517}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: e4c8ea7a4ed16844fb5e651185bf6a13, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   currentHealth: 0
---- !u!58 &8372794114287439765
+--- !u!58 &2261724403389938065
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,6 +152,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0016448518, y: 0.008114559}
+  m_Offset: {x: 1.0374755, y: 5.6525297}
   serializedVersion: 2
-  m_Radius: 0.49670896
+  m_Radius: 1.4941123
