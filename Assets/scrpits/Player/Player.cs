@@ -8,6 +8,12 @@ public class Player : MonoBehaviour
     private bool Buff = true;
     private Gun Shotgun;
 
+    //getting hit 
+    bool invicible = false;
+    float invicibletimer = 0;
+    float invicibletime = 2;
+   
+
     private void Awake()
     {
         move = GetComponent<Move2D>();
@@ -31,7 +37,15 @@ public class Player : MonoBehaviour
     {
         move.direction = value.Get<Vector2>();
     }
+    //hit du player
+    void resetplayer()
+    {
 
+    }
+    void Hit(GameObject gameobjecthit)
+    {
+
+    }
     private void OnFire()
     {
         shooter.Shoot();
@@ -53,6 +67,20 @@ public class Player : MonoBehaviour
             {
                 Destroy(this.gameObject);
             }
+        }
+    }
+    private void Update()
+    {
+        if (invicibletimer >= invicibletime)
+        {
+            invicibletimer = 0;
+            invicible = false;
+           
+        }
+        else
+        {
+            invicibletimer += Time.deltaTime;
+           
         }
     }
 

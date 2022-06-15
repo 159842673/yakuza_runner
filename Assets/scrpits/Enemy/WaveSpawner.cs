@@ -24,7 +24,7 @@ public class WaveSpawner : MonoBehaviour
         GameObject[] TotalEnemies = GameObject.FindGameObjectsWithTag("damage");
         if (TotalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
         {
-    
+            Next();
         }
 
 
@@ -45,7 +45,7 @@ public class WaveSpawner : MonoBehaviour
             NextSpawnTime = Time.time + currentWave.Startspawn;
             if (currentWave.NbrEnemies == 0)
             {
-                canSpawn = false;
+                canSpawn = true ;
             }
         }
         
