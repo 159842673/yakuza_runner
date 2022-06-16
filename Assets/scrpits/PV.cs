@@ -7,7 +7,6 @@ public class PV : MonoBehaviour
     public int startingHealth;
     public UnityEvent damageTaken;
     [HideInInspector] public int currentHealth;
-
     private void Start()
     {
         currentHealth = startingHealth;
@@ -19,7 +18,6 @@ public class PV : MonoBehaviour
         damageTaken.Invoke();
         if (currentHealth <= 0)
             Destroy(gameObject);
-        
     }
     public void Lambda()
     {

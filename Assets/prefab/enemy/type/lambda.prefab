@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 7382284040477454529}
   - component: {fileID: 6502160311730957423}
   - component: {fileID: 6502160313479190768}
-  - component: {fileID: 389337347818948032}
-  - component: {fileID: 5364401893934665751}
+  - component: {fileID: 8834198601459327743}
+  - component: {fileID: 4981304048606573713}
   m_Layer: 8
   m_Name: lambda
   m_TagString: damage
@@ -31,8 +31,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7382284040477454528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.2333, y: -5.3803, z: 0}
-  m_LocalScale: {x: 0.88262326, y: 0.92810357, z: 1.6923307}
+  m_LocalPosition: {x: 0.7503, y: -9.3228, z: 0}
+  m_LocalScale: {x: 0.36241156, y: 0.38108608, z: 0.6948833}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -132,8 +132,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.3700512, y: -0.103233494}
-  m_Size: {x: 5.664368, y: 5.3867946}
+  m_Offset: {x: 0.15910725, y: -1.6643993}
+  m_Size: {x: 7.046022, y: 11.542627}
   m_Direction: 0
 --- !u!114 &6502160313479190768
 MonoBehaviour:
@@ -150,7 +150,26 @@ MonoBehaviour:
   bullet: {fileID: 3209645289574790021, guid: 2a493d4091f3e304c863230d6d39f9ae, type: 3}
   direction: {x: -1, y: 1}
   bulletSpeed: 5
---- !u!114 &389337347818948032
+--- !u!95 &8834198601459327743
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7382284040477454528}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 252b9912160baf543bdd986f48ac486c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4981304048606573713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7382284040477454528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf3e440d5c17c5a49ab641585d9f0a5e, type: 3}
+  m_Script: {fileID: 11500000, guid: c04a061cb96c9024689c6261741521b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &5364401893934665751
