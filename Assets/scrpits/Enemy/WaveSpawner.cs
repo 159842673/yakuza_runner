@@ -17,22 +17,17 @@ public class WaveSpawner : MonoBehaviour
     private int currentWaveNumber;
     private bool canSpawn = true;
     private float NextSpawnTime;
+    GameObject[] TotalEnemies;
     private void Update()
     {
         currentWave = waves[currentWaveNumber];
         Spawnwave();
-        GameObject[] TotalEnemies = GameObject.FindGameObjectsWithTag("damage");
+       TotalEnemies = GameObject.FindGameObjectsWithTag("damage");
         if (TotalEnemies.Length == 0 && !canSpawn && currentWaveNumber + 1 != waves.Length)
         {
-            Next();
+            currentWaveNumber++;
+            canSpawn = true;
         }
-
-
-    }
-    void Next()
-    {
-        currentWaveNumber++;
-        canSpawn = true;
     }
     void Spawnwave()
     {
@@ -45,7 +40,7 @@ public class WaveSpawner : MonoBehaviour
             NextSpawnTime = Time.time + currentWave.Startspawn;
             if (currentWave.NbrEnemies == 0)
             {
-                canSpawn = true ;
+                canSpawn = false ; 
             }
         }
         
